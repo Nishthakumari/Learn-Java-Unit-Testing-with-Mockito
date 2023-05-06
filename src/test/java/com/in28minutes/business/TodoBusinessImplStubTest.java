@@ -11,7 +11,7 @@ import static org.junit.Assert.assertEquals;
 public class TodoBusinessImplStubTest {
 
     @Test
-    public void test()
+    public void testRetrieveTodosRelatedToSpring_usingAStub()
     {
         TodoService todoServiceStub = new TodoServiceStub();
         TodoBusinessImpl todoBusiness = new TodoBusinessImpl(todoServiceStub);
